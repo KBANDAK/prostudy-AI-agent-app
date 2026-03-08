@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+PyPDF2
+reportlab
+stripe
+streamlit-cookies-controller
