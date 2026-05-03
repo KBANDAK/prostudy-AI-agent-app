@@ -23,7 +23,31 @@ By leveraging the **Google Gemini 2.5 Flash API**, StudyGenius AI transforms sta
 * **Database:** SQLite (Local/Development)
 
 ## 🚀 Installation & Setup
+Get Your OpenRouter API Key (Required)
+This app uses OpenRouter to access powerful AI models like Gemini 2.0 and Claude 3.5. You need a free API key to run it.
 
+Go to OpenRouter.ai and sign up or log in.
+
+Navigate to the Keys section (usually under your account profile or settings).
+
+Click Create Key. Give it a name (like "StudyGenius").
+
+Copy the API Key. It will look something like sk-or-v1-....
+
+Note: OpenRouter offers many free models, but if you wish to use premium models like Claude 3.5 Sonnet, you will need to add a small amount of credits (e.g., $5) to your account.
+
+3. Add the Key to the Code
+Open the studyagent.py file in any text editor.
+
+Locate line 12 (near the top of the file):
+
+Python
+OPENROUTER_API_KEY = "your-sk-or-v1-key-here"
+Replace "your-sk-or-v1-key-here" with the actual key you copied from OpenRouter. Keep the quotation marks!
+How to Run the App
+Once your dependencies are installed and your API key is in the code, open your terminal, navigate to your project folder, and run:
+Bash
+streamlit run studyagent.py
 **1. Clone the repository:**
 ```bash
 git clone [https://github.com/KBANDAK/study-app.git](https://github.com/BIGGREEK2003/study-app.git)
